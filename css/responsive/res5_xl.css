@@ -1,0 +1,10 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    body::before {
+        content: 'Extra large Devices';
+        width: 100%;
+        height: 20px;
+        background: var(--xl-bg-color);
+        color: #fff;
+    }
+}
